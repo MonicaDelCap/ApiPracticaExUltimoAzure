@@ -1,0 +1,6 @@
+@ApiPracticaExUltimoAzure_HostAddress = http://localhost:5001
+
+GET {{ApiPracticaExUltimoAzure_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
