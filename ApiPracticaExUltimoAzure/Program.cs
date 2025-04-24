@@ -14,7 +14,7 @@ builder.Services.AddAzureClients(factory =>
 });
 
 SecretClient secretClient = builder.Services.BuildServiceProvider().GetService<SecretClient>();
-KeyVaultSecret vaultSecret = await secretClient.GetSecretAsync("SqlAzureCubos");
+KeyVaultSecret vaultSecret = await secretClient.GetSecretAsync("SqlAzureCubosB");
 KeyVaultSecret issueSecret = await secretClient.GetSecretAsync("Issuer");
 KeyVaultSecret audSecret = await secretClient.GetSecretAsync("Audience");
 KeyVaultSecret keySecret = await secretClient.GetSecretAsync("SecretKey");
